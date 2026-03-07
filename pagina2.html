@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <!-- Permite usar acentos -->
+    <meta charset="UTF-8">
+
+    <!-- Faz a página se adaptar a telas menores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Conecta o CSS -->
+    <link rel="stylesheet" href="pagina2.css">
+
+    <!-- Título da aba -->
+    <title>Cadastro de Produto</title>
+
+</head>
+
+<body>
+
+    <!-- Card principal igual ao da página 1 -->
+    <div class="cor">
+
+        <!-- Título da página -->
+        <h1>Cadastro de Produto</h1>
+
+        <!-- Texto explicativo -->
+        <p>Preencha todos os campos abaixo</p>
+
+        <!-- Texto de dica -->
+        <p class="dica">
+            DICA: O formulário usa a tag form com inputs.
+        </p>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <!-- Nome do produto -->
+            <label>Nome do Produto</label>
+            <input type="text" placeholder="Ex: Notebook Dell Inspiron">
+
+            <!-- Código do produto -->
+            <label>Código (SKU)</label>
+            <input type="text" placeholder="Ex: PROD-0042">
+
+            <!-- Preço -->
+            <label>Preço (R$)</label>
+            <input type="number" placeholder="Ex: 2500">
+
+            <!-- Quantidade -->
+            <label>Quantidade em Estoque</label>
+            <input type="number" placeholder="Ex: 50">
+
+            <!-- Categoria -->
+            <label>Categoria</label>
+            <input type="text" placeholder="Ex: Eletrônicos">
+
+            <!-- Descrição -->
+            <label>Descrição do Produto</label>
+            <textarea placeholder="Descreva o produto"></textarea>
+
+            <!-- Botão cadastrar -->
+            <button>Cadastrar Produto</button>
+
+        </form>
+
+        <!-- Botão para voltar ao menu -->
+        <a class="voltar" href="pagina1.html">
+            Voltar para o menu principal
+        </a>
+
+    </div>
+
+</body>
+
+</html>

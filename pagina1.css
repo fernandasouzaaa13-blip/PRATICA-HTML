@@ -1,0 +1,112 @@
+/* Estilo geral da página */
+body{
+
+    /* Remove margens padrão do navegador */
+    margin:0;
+
+    /* Fonte usada no site */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Cor de fundo escura */
+    background-color:#2b0b0b;
+
+    /* Centraliza o card na tela */
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    /* Altura da tela */
+    height:100vh;
+
+}
+
+/* Card vermelho central */
+.card{
+
+    /* Cor de fundo do card */
+    background:linear-gradient(#c93a3a,#8a1f1f);
+
+    /* Espaçamento interno */
+    padding:40px;
+
+    /* Bordas arredondadas */
+    border-radius:20px;
+
+    /* Largura do card */
+    width:350px;
+
+    /* Centraliza texto */
+    text-align:center;
+
+    /* Cor do texto */
+    color:white;
+
+    /* Sombra para dar profundidade */
+    box-shadow:0 10px 30px rgba(0,0,0,0.5);
+
+}
+
+/* Estilo do título */
+h1{
+
+    margin-bottom:10px;
+
+}
+
+/* Texto pequeno abaixo do título */
+.descricao{
+
+    font-size:14px;
+
+    margin-bottom:25px;
+
+}
+
+/* Estilo dos botões */
+.botao{
+
+    /* Faz o link parecer um botão */
+    display:block;
+
+    /* Espaçamento interno */
+    padding:15px;
+
+    /* Espaço entre os botões */
+    margin:10px 0;
+
+    /* Cor clara do botão */
+    background-color:#ffb3a7;
+
+    /* Remove sublinhado */
+    text-decoration:none;
+
+    /* Cor do texto */
+    color:#3a0a0a;
+
+    /* Cantos arredondados */
+    border-radius:12px;
+
+    /* Texto alinhado à esquerda */
+    text-align:left;
+
+}
+
+/* Texto menor dentro do botão */
+.botao span{
+
+    /* Faz o texto quebrar linha */
+    display:block;
+
+    /* Fonte menor */
+    font-size:12px;
+
+}
+
+/* Efeito quando passa o mouse */
+.botao:hover{
+
+    background-color:#ffd1c9;
+
+}
