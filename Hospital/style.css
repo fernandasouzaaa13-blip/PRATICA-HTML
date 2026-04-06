@@ -1,0 +1,52 @@
+/* Estilo geral da página */
+body{
+background: linear-gradient(135deg,#3b239a,#5f7bff);
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+margin-top:120px;
+color:white;
+}
+
+/* Título principal */
+h3{
+font-size:30px;
+margin-bottom:40px;
+}
+
+/* Título da regra */
+h2{
+margin-top:20px;
+}
+
+/* Texto */
+p{
+max-width:700px;
+margin:auto;
+font-size:16px;
+margin-bottom:30px;
+}
+
+/* Container dos botões */
+.botoes{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+/* Botões */
+a{
+background-color:#4aa4df;
+padding:12px 25px;
+border-radius:10px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+box-shadow:0px 4px 10px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+/* efeito hover */
+a:hover{
+background-color:#2f8cc5;
+transform:scale(1.05);
+}
